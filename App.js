@@ -44,7 +44,7 @@ export default function App() {
           <View style={styles.socialImageContainer}>
             <Image
               style={styles.socialImage}
-              source={require("./assets/linkedIn.png")}
+              source={require("./assets/location.png")}
             />
           </View>
           <Text style={styles.socialLink}>Gaibandha,Rangpur,Dhaka</Text>
@@ -66,22 +66,22 @@ export default function App() {
           <View style={styles.socialImageContainer}>
             <Image
               style={styles.socialImage}
-              source={require("./assets/linkedIn.png")}
+              source={require("./assets/github.png")}
             />
           </View>
-          <Text style={styles.socialLink}>Gaibandha,Rangpur,Dhaka</Text>
+          <Text style={styles.socialLink}>
+            https://github.com/MdShafikulIslam1
+          </Text>
         </View>
         {/* email */}
         <View style={styles.socialInfoContainer}>
           <View style={styles.socialImageContainer}>
             <Image
               style={styles.socialImage}
-              source={require("./assets/linkedIn.png")}
+              source={require("./assets/email.png")}
             />
           </View>
-          <Text style={styles.socialLink}>
-            https://www.linkedin.com/in/shafikul-islam-web-dev/
-          </Text>
+          <Text style={styles.socialLink}>mdshafikuli421@gmail.com</Text>
         </View>
       </View>
     </View>
